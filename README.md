@@ -1,9 +1,10 @@
-Vagrant Box Running a Chef Server with a Web UI
-===============================================
+Vagrant Box Running an Opscode Chef Server with a Web UI
+========================================================
 
 You need to install [Vagrant](http://vagrantup.com/) and
 [VirtualBox](https://www.virtualbox.org/). Run Bundler to install the necessary
-gems. Then you can launch a local Chef server using
+gems. Then you can launch a local [Opscode](http://www.opscode.com/) Chef
+server using
 
 	vagrant up
 
