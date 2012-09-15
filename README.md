@@ -17,4 +17,5 @@ Base Box
 --------
 
 The base box incorporates VirtualBox guest additions version 4.1.22 (at the
-time of writing). You can easily rebuild the base box. See [instructions]().
+time of writing). You can easily rebuild the base box. See
+[instructions](https://github.com/royratcliffe/VagrantBaseBoxes).
