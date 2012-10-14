@@ -9,6 +9,11 @@ Vagrant::Config.run do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "ubuntu-12.04.1-server-amd64-ruby193"
 
+  # Some base boxes respond slowly. Give them more than ten seconds to answer to
+  # an SSH connection. Otherwise, Vagrant will retry the connection over and
+  # over again, not realising that the timeout is too short.
+  config.ssh.timeout = 30
+
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
   config.vm.box_url = "http://cloud.github.com/downloads/royratcliffe/VagrantBaseBoxes/ubuntu-12.04.1-server-amd64-ruby193.box"
