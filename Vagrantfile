@@ -74,6 +74,8 @@ Vagrant::Config.run do |config|
     chef.log_level = :debug
     chef.cookbooks_path = "cookbooks"
 
+    chef.add_recipe "apt"
+
     # Chef needs development tools. Otherwise native Ruby extensions will fail
     # to compile. The base box initially installs the compiler for compiling
     # Ruby from source, but subsequently removes the developer tools. Add them
