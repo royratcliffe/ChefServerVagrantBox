@@ -56,5 +56,6 @@ SITE
     zlib (1.0.2)
 
 DEPENDENCIES
+  apt (>= 0)
   chef (>= 0)
 
