@@ -14,4 +14,5 @@ site 'http://community.opscode.com/api/v1'
 #   :git => 'https://github.com/findsyou/cookbooks',
 #   :ref => 'postgresql-improvements'
 
+cookbook 'apt'
 cookbook 'chef'
